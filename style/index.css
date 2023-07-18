@@ -56,7 +56,6 @@ nav{
 padding: 70px 15px 160px 120px;
 }
 
-
 .journey-container {
   background-color: #FFF;
   display: flex;
@@ -110,8 +109,7 @@ background-color: #FFF;
   display: flex;
   gap: 60px;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 .sponsored-item{
@@ -120,7 +118,35 @@ padding: 50px;
 
 
 
+/* popular section style start from here */
 
+
+.collection-title{
+text-align: center;
+color: #3A3A3A;
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 30px;
+
+}
+
+.background-color{  
+  color: #FB8200;
+}
+.popular-collection-section{
+  align-items:center;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  
+}
+
+.popular-collection-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  
+}
 
 
 
@@ -168,7 +194,15 @@ padding: 10px;
     
     }
 
-
+    .popular-collection-section{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-left: 70px;
+      padding: 50px;
+     margin-top: 10px;
+      
+    }
 }
 
 
