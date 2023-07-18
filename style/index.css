@@ -22,7 +22,6 @@ nav{
   max-width: 1400px;
   margin: 0 auto;
 
-
 }
 
 .nav-item-container {
@@ -32,7 +31,7 @@ nav{
   width: 35%;
 }
 
-.nav-item-container a {
+.nav-item-container a{
   margin: 50px 0px;
   text-decoration: none;
   font-size: 1.2rem;
@@ -54,7 +53,12 @@ nav{
 /* Start and journey section star from here */
 
 .journey-container {
-  background-color: #e02c6d;
+padding: 70px 15px 160px 120px;
+}
+
+
+.journey-container {
+  background-color: #FFF;
   display: flex;
   align-items: center;
   max-width: 1400px;
@@ -91,9 +95,28 @@ nav{
   box-shadow: 3px 2px 3px 5px rgba(172, 255, 47, 0.326);
 }
 
+/* sponsored style section starts from here */
+.sponsored-container{
 
+background-color: #FFF;
 
+}
 
+.sponsored-item{
+  display: flex;
+  max-width: 1400px;
+  min-height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sponsored-item{
+padding: 50px;
+}
 
 
 
@@ -121,16 +144,31 @@ nav{
     
   }
 
+
+/* Start journey section responsive */
+  .journey-container {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+      
+    }
 .nav-btn{
 margin-bottom: 20px;
 padding: 10px;
   }
 
 
-  .journey-container {
-  flex-direction: column-reverse;
+ 
+/* sponsored responsive  section*/
+  .sponsored-item{
+    flex-direction: column;
+  padding: 5px;
+  margin-bottom: 40px;
+   gap: 50px;
+  
     
-  }
+    }
+
+
 }
 
 
